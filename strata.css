@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: #0a2a30;
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  /* list-style: none; */
+}
+
+nav ul li a {
+  color: #0a2a30;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 15px 35px;
+  background: #f0884f;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.no-bg {
+  background: unset;
+  color: #f0884f;
+  border: 2px solid #f0884f;
+  font-weight: 600;
+}
+
+/* nav ul .btn {
+  background: #f0884f;
+  color: #fff;
+  border-radius: 50px;
+} */
+
+/* hero section */
+.hero {
+  padding-top: 50px;
+}
+.text-block {
+  text-align: center;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.text-block h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text-block p {
+  font-size: 16px;
+  width: 70%;
+  margin: 0px auto;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.link-block {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.img-block img {
+  width: 100%;
+  margin-top: -60px;
+}
+
+/* props */
+.props {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 50px;
+  gap: 30px;
+}
+
+.props .single-props {
+  display: flex;
+  align-items: center;
+}
+
+.props .single-props img {
+  width: auto;
+  height: 8rem;
+}
+
+/* advantages */
+
+.advantages {
+  display: grid;
+  padding: 20px 50px;
+  /* gap: 40px; */
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ad-img {
+    height: 20rem;
+    width: 100%;
+    border: 2px solid;
+}
+
+.advantages a {
+    width: max-content;
+    /* display: inline-block; */
+}
+
+.single-ad {
+    padding: 0px 60px;
+}
+
+.single-ad.border {
+    border-right: 1px solid;
+}
